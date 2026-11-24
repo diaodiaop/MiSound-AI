@@ -1,7 +1,7 @@
 # MiSound-AI
 
 
-基于c#的小米音响接入第三方AI  (本代码都由chatgpt网页版生成)
+基于c#的小米音响接入第三方AI  (本代码都由chatgpt网页版生成,自己一行没写)
 
 
 # MiSound-AI.Local（.NET Framework 4.8）
@@ -42,7 +42,7 @@
 }
 ```
 
-5. 按 F5 启动。也可以在项目目录执行 `build.bat`，然后运行 `bin\Release\MiGPT.Local.exe`。
+5. 按 F5 启动。
 
 菜单：
 - `1` 获取米家设备列表；
