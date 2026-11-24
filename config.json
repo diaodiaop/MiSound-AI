@@ -1,9 +1,9 @@
 {
   "Xiaomi": {
-    "UserId": "*****",
-    "PassToken": "*****",
-    "MiNADeviceId": "",
-    "DeviceId": "*****",
+    "UserId": ".account.xiaomi.com中的userId",
+    "PassToken": ".account.xiaomi.com中的passToken",
+    "MiNADeviceId": "没啥用",
+    "DeviceId": ".account.xiaomi.com中的deviceId",
     "PollIntervalSeconds": 3
   },
   "AI": {
