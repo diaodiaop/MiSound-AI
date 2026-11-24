@@ -22,24 +22,25 @@
 1. Windows 安装 .NET Framework 4.8 Developer Pack（或 Visual Studio 中安装 .NET Framework 4.8 targeting pack）。
 2. 用 Visual Studio 打开 `MiSound.AI.Local.sln`。
 3. 还原 NuGet 包（项目依赖 Newtonsoft.Json 13.0.3）。
-4. 修改项目目录下的 `config.json`：
+4. 修改项目目录下的 `config.json`：(json文件不知道为啥让我弄没了,你自己新建吧)
 
 ```json
 {
   "Xiaomi": {
-    "UserId": "小米账号数字ID",
-    "PassToken": "小米passToken",
-    "MiNADeviceId": "",
-    "PollIntervalSeconds": 3,
-    "DeviceId": "MiNA设备deviceID或miotDID"
+    "UserId": ".account.xiaomi.com中的userId",
+    "PassToken": ".account.xiaomi.com中的passToken",
+    "MiNADeviceId": "没啥用",
+    "DeviceId": ".account.xiaomi.com中的deviceId",
+    "PollIntervalSeconds": 3
   },
   "AI": {
-    "BaseUrl": "https://api.openai.com/v1",
-    "ApiKey": "你的API Key",
-    "Model": "gpt-4o-mini",
+    "BaseUrl": "*****",
+    "ApiKey": "sk-*****",
+    "Model": "deepseek-flash",
     "SystemPrompt": "你是一个中文语音助手。回答自然、简洁，适合通过智能音箱朗读。不要使用Markdown表格。"
   }
 }
+
 ```
 
 5. 按 F5 启动。
