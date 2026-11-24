@@ -1,7 +1,13 @@
 # MiSound-AI
 
 
-基于c#的小米音响接入第三方AI  (本代码都由chatgpt网页版生成,自己一行没写)
+基于c#的小米音响接入第三方AI  
+
+(本代码都由chatgpt网页版生成,自己一行没写)
+
+(config.json文件不知道为啥让我弄没了,你自己新建吧)
+
+(我自己是可用的(型号:小爱音箱Play增强版- hardware=L05C),随便找个服务器或者本地 运行exe 输入3 然后回车2次 就行了, 至于你为什么不好使,我不知道,问AI)
 
 
 # MiSound-AI.Local（.NET Framework 4.8）
@@ -22,7 +28,7 @@
 1. Windows 安装 .NET Framework 4.8 Developer Pack（或 Visual Studio 中安装 .NET Framework 4.8 targeting pack）。
 2. 用 Visual Studio 打开 `MiSound.AI.Local.sln`。
 3. 还原 NuGet 包（项目依赖 Newtonsoft.Json 13.0.3）。
-4. 修改项目目录下的 `config.json`：(json文件不知道为啥让我弄没了,你自己新建吧)
+4. 修改项目目录下的 `config.json`：
 
 ```json
 {
