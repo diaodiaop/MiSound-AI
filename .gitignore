@@ -19,3 +19,4 @@ publish/
 
 # ReSharper
 _ReSharper*/
+/config.json
