@@ -1,0 +1,15 @@
+{
+  "Xiaomi": {
+    "UserId": "*****",
+    "PassToken": "*****",
+    "MiNADeviceId": "",
+    "DeviceId": "*****",
+    "PollIntervalSeconds": 3
+  },
+  "AI": {
+    "BaseUrl": "*****",
+    "ApiKey": "sk-*****",
+    "Model": "deepseek-flash",
+    "SystemPrompt": "你是一个中文语音助手。回答自然、简洁，适合通过智能音箱朗读。不要使用Markdown表格。"
+  }
+}
